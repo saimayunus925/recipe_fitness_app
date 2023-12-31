@@ -8,7 +8,7 @@ Well, today's your lucky day! As someone who's passionate about cooking, food, a
 
 TECH USED:
 - Python
-- SQL
+- MongoDB
 
 PROJECT REQUIREMENTS:
 
