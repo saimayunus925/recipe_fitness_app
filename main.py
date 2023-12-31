@@ -12,4 +12,3 @@ def get_response(URL):
 API_URL_NUTRIENTS = os.getenv('API_URL_NUTRIENTS') # the API URL for getting recipes by nutrients
 API_URL_INGREDIENTS = os.getenv('API_URL_INGREDIENTS') # the API URL for getting recipes by ingredients
 
-CONNECTION = sqlite3.connect("recipeDatabase.db") # connection obj to our database
