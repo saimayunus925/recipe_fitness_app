@@ -11,3 +11,8 @@ def get_recipes_table():
     # returns our 'recipes' table
     recipeDatabase = get_DB() # our app database
     return recipeDatabase['recipes'] # the 'recipes' collection in our database
+
+''' 
+TODO: use the MongoDB CRUD functions (insert_one, insert_many, find, update_one, update_many, replace_one, delete_one, delete_many, etc) 
+to insert/retrieve/edit/delete the API data into/from the database
+'''
