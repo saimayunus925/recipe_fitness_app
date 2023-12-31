@@ -12,3 +12,13 @@ def get_response(URL):
 API_URL_NUTRIENTS = os.getenv('API_URL_NUTRIENTS') # the API URL for getting recipes by nutrients
 API_URL_INGREDIENTS = os.getenv('API_URL_INGREDIENTS') # the API URL for getting recipes by ingredients
 
+'''FLASK CODE'''
+
+from flask import Flask
+
+APP = Flask(__name__) # our Flask application instance, holds name of current Python module
+
+@APP.route('/')
+def index():
+    return "<h4>Hello World!</h4>"
+
