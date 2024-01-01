@@ -22,3 +22,6 @@ APP = Flask(__name__) # our Flask application instance, holds name of current Py
 def index():
     return "<h4>Hello World!</h4>"
 
+if __name__ == "__main__":
+    print("Hello World")
+
