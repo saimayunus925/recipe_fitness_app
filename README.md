@@ -10,11 +10,6 @@ TECH USED:
 - Python
 - MongoDB
 
-NEW PROJECT IDEA:
-* Recipe Book:
-   * Develop a recipe book where users can browse, search, and save their favorite recipes.
-   * Use the MongoDB database to store the saved recipes.
-
 PROJECT REQUIREMENTS:
 
 ### 1. **Introduction**
@@ -22,12 +17,11 @@ PROJECT REQUIREMENTS:
       The document is meant to be a comprehensive overview of the project requirements. The project itself is a recipe app that incorporates
       fitness by generating tasty and elegant recipes that fit into users' workout and weight loss plans. The project should also filter by ingredients so that users don't need to endure food they hate to get healthy.
    - **Scope:** 
-      The project will be a Flask application - HTML/CSS front-end, Flask backend, MongoDB database. Flask is a Python web-dev framework. In future updates, we may make a React front-end, but for now, we'll stick with HTML/CSS. The project will query the Spoonacular API for recipe content, which it will then store in a MongoDB database. Then, the project will have a mechanism to get user input (e.g. does the user want more protein, more veggies, portion control, etc), which it will use to query the database to get the recipes best suited for the user's needs.
+      The project will be a Flask application - HTML/CSS front-end, Flask backend, MongoDB database. Flask is a Python web-dev framework. In future updates, we may make a React front-end, but for now, we'll stick with HTML/CSS. The project will have a mechanism to get user input (e.g. does the user want more protein, more veggies, portion control, etc), which it will use to query the Spoonacular API to get the recipes best suited for the user's needs. The app will then store the correct recipes in a MongoDB database.
    - **Background:** 
       As important as weight loss plans and apps are, they're known for being overly restrictive and/or sacrificing flavor for health. It
       can also be difficult for picky eaters to gain motivation to eat healthy, speaking from experience, as sometimes the very foods they
-      dislike are front-and-center in many diet plans. So I'm working on this app, so that hopefully people with my kind of "picky eater"
-      palates who are passionate about fitness can fix their diets without sacrificing cool recipes or flavors. 
+      dislike are front-and-center in many diet plans. E.g. when I started Weight Watchers, I noticed that the "healthy" Taco Bell options it presented had avocado, when I hate avocado. However, I like plenty of other veggies and I want to improve my health. Thus, I'm working on this app, so that hopefully people with my kind of "picky eater" palates who are passionate about fitness can fix their diets without sacrificing cool recipes or flavors. 
 
 ### 2. **Functional Requirements**
    - **Use Cases:** Describe various interactions with the system.
@@ -35,10 +29,10 @@ PROJECT REQUIREMENTS:
    - **Data Handling:** Define how data will be stored, retrieved, and manipulated.
 
 ### 3. **Non-Functional Requirements**
-   - **Performance:** Specify response times, throughput, etc.
-   - **Usability:** Define user interface requirements.
-   - **Security:** Outline security measures and protocols.
-   - **Scalability:** Discuss how the app will handle growth.
+   - **Performance:** The system should load recipes within 2 seconds of user request.
+   - **Usability:** The user interface should be intuitive, following established design principles and accessibility standards.
+   - **Security:** Authentication mechanisms should follow industry best practices (e.g., password hashing, multi-factor authentication).
+   - **Scalability:** The application should handle a concurrent user load of at least 1000 users without significant degradation in performance.
 
 ### 4. **Constraints**
    - **Technical Constraints:** Hardware, software, and platform limitations.
