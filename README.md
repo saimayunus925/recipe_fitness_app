@@ -19,11 +19,22 @@ PROJECT REQUIREMENTS:
    - **Scope:** 
       The project will be a Flask application - HTML/CSS front-end, Flask backend, MongoDB database. Flask is a Python web-dev framework. In future updates, we may make a React front-end, but for now, we'll stick with HTML/CSS. The project will have a mechanism to get user input (e.g. does the user want more protein, more veggies, portion control, etc), which it will use to query the Spoonacular API to get the recipes best suited for the user's needs. The app will then store the correct recipes in a MongoDB database.
    - **Background:** 
-      As important as weight loss plans and apps are, they're known for being overly restrictive and/or sacrificing flavor for health. It
-      can also be difficult for picky eaters to gain motivation to eat healthy, speaking from experience, as sometimes the very foods they
-      dislike are front-and-center in many diet plans. E.g. when I started Weight Watchers, I noticed that the "healthy" Taco Bell options it presented had avocado, when I hate avocado. However, I like plenty of other veggies and I want to improve my health. Thus, I'm working on this app, so that hopefully people with my kind of "picky eater" palates who are passionate about fitness can fix their diets without sacrificing cool recipes or flavors. 
+      As important as weight loss plans and recipe apps are, they do not always take dietary restrictions into account. It can also be difficult to gain motivation to eat healthy with dietary restrictions, as sometimes the very foods to be avoided are front-and-center in many diet plans. E.g. during my health journey, I've noticed that protein is emphasized. However, as a Muslim, I cannot eat meat that isn't slaughtered in a *zabihah* fashion, and most meat in the West isn't slaughtered that way. Thus, I often turn to carbs for
+      food, which leads to blood sugar spikes and intense cravings.
 
 ### 2. **Functional Requirements**
+   1. Users shall be able to enter their preferences (dietary, taste, ingredients, religious restrictions, etc) for recipes. The system shall generate a series of recipes for the user based on those preferences.
+   2. The system shall allow users to create an account with a unique username and password. 
+   3. Users shall be able to log in securely using their registered credentials.
+   4. Users shall be able to create, edit, and delete recipes.
+   5. Users shall be able to search for recipes based on keywords, ingredients, or categories.
+   6. Each recipe shall include a title, list of ingredients, step-by-step instructions, and preparation time.
+   7. The system shall provide filters to sort and display recipes based on user preferences (e.g., cooking time, difficulty level).
+   8. Users shall have a profile page displaying their username, profile picture, and a list of their saved and uploaded recipes.
+   9. Users shall be able to update their profile information and change their profile picture.
+   10. Users shall be able to add ingredients from a recipe to a shopping list.
+   11. The system shall allow users to view and manage their shopping list.
+   12. More requirements will be added as the need arises.
    - **Use Cases:** Describe various interactions with the system.
    - **Functional Specifications:** Detail specific functionalities the app must have.
    - **Data Handling:** Define how data will be stored, retrieved, and manipulated.
