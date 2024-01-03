@@ -15,6 +15,7 @@ API_URL_INGREDIENTS = os.getenv('API_URL_INGREDIENTS') # the API URL for getting
 '''FLASK CODE'''
 
 from flask import Flask
+from markupsafe import escape
 
 APP = Flask(__name__) # our Flask application instance, holds name of current Python module
 

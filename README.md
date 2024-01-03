@@ -10,6 +10,11 @@ TECH USED:
 - Python
 - MongoDB
 
+NEW PROJECT IDEA:
+* Recipe Book:
+   * Develop a recipe book where users can browse, search, and save their favorite recipes.
+   * Use the MongoDB database to store the saved recipes.
+
 PROJECT REQUIREMENTS:
 
 ### 1. **Introduction**
